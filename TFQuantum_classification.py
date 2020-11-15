@@ -28,7 +28,7 @@ from DataHandler import Data_Handler
 
 class TFQuantum:
     """
-    This class creates, trains and test all three models for the given data handler object.
+    This class creates, trains and test all three models for the given data handler object (individual Dataset).
     """
     def __init__(self, dataHandler):
 

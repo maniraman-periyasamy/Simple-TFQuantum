@@ -7,7 +7,7 @@ from tensorflow.keras.utils import to_categorical
 
 class Data_Handler:
     """
-    Data Handle class create the data with pattern and encodes the same into quantum network.
+    Data Handle class create the data with pattern and encodes the same into quantum circuit network.
     """
     def __init__(self, Nu_Data, pattern = "Triangle", test = 0.1, val = 0.1):
 
